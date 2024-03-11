@@ -1,3 +1,5 @@
+import AAsterisk.AAsterisk;
+import AAsterisk.NodoAA;
 import DepthFirstSearch.DepthFirst;
 import DepthFirstSearch.NodoBPP;
 import HillClimbSearch.HillClimb;
@@ -9,11 +11,21 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList<NodoBPP> ABIERTO = new LinkedList<>();
-        LinkedList<NodoBPP> CERRADO = new LinkedList<>();
 
         NodoHC nodoHC = new NodoHC();
         NodoBPP nodoBPP = new NodoBPP();
+        NodoAA nodoAA = new NodoAA();
+
+        nodoAA.numNodo=1;
+        nodoAA.heuristica=0;
+        nodoAA.nodoPadre=0;
+        nodoAA.operacion="NO";
+        nodoAA.distanciaAcumulada=0;
+        nodoAA.costoTotal=0;
+        nodoAA.cuerpoNodo.add(List.of("2", "8", "3"));
+        nodoAA.cuerpoNodo.add(List.of("1", "0", "4"));
+        nodoAA.cuerpoNodo.add(List.of("7", "6", "5"));
+
         nodoHC.numNodo=1;
         nodoHC.heuristica=0;
         nodoHC.nodoPadre=0;
@@ -38,6 +50,8 @@ public class Main {
 
         DepthFirst bpp = new DepthFirst();
         HillClimb hc = new HillClimb();
+        AAsterisk aAsterisk = new AAsterisk();
+        aAsterisk.aAsterisk(nodoAA, finalState);
         hc.hillClimb(nodoHC, finalState);
         bpp.profundidadPrimero(nodoBPP, finalState, 4);
 

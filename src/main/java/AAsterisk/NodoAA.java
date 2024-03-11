@@ -21,8 +21,8 @@ public class NodoAA {
     // (7,8,0)
 
 
-    public float getHeuristica() {
-        return heuristica;
+    public float getCostoTotal() {
+        return costoTotal;
     }
 
     @Override

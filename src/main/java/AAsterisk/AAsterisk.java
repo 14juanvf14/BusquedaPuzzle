@@ -10,7 +10,7 @@ public class AAsterisk {
     LinkedList<NodoAA> ABIERTO = new LinkedList<>();
     LinkedList<NodoAA> CERRADO = new LinkedList<>();
 
-    public boolean hillClimb(NodoAA nodoInicial, List<List<String>> finalState) {
+    public boolean aAsterisk(NodoAA nodoInicial, List<List<String>> finalState) {
         int numNodo = nodoInicial.numNodo;
         nodoInicial.heuristica = calcularDistanciaManhattan(nodoInicial.cuerpoNodo, finalState);
         nodoInicial.distanciaAcumulada = 0;
@@ -29,9 +29,11 @@ public class AAsterisk {
                     return true;
                 }
 
-                List<NodoAA> sucesores = expander(N, finalState);
-                sucesores.sort(Comparator.comparingDouble(NodoAA::getHeuristica).reversed());
-                //Calcular
+                List<NodoAA> sucesores = expander(N, finalState); //Expander
+
+                sucesores.sort(Comparator.comparingDouble(NodoAA::getCostoTotal).reversed());
+
+                // Si 2 o mas trayectorias llegan a un mismo nodo eliminar la que tiene mayor costo
                 for(int i = sucesores.size()-1; i >= 0;  i--){
                     NodoAA sucesor = sucesores.get(i);
                     if (sucesor != null) {
@@ -40,11 +42,14 @@ public class AAsterisk {
                     }
 
                 }
+
                 for (NodoAA sucesor:sucesores){
                     if (sucesor != null) {
                         ABIERTO.addFirst(sucesor); // Almacenar al inicio de la lista ABIERTO
+                        ABIERTO.sort(Comparator.comparingDouble(NodoAA::getCostoTotal));
                     }
                 }
+
             }
         }
 
@@ -127,7 +132,7 @@ public class AAsterisk {
         sucesor.cuerpoNodo.get(filaCeroPadre).set(columnaCeroPadre, sucesor.cuerpoNodo.get(filaCeroSucesor).get(columnaCeroSucesor));
         sucesor.cuerpoNodo.get(filaCeroSucesor).set(columnaCeroSucesor, "0");
         sucesor.heuristica = calcularDistanciaManhattan(sucesor.cuerpoNodo, finalState);
-        
+        sucesor.costoTotal = sucesor.heuristica + sucesor.distanciaAcumulada;
         return sucesor;
     }
 
