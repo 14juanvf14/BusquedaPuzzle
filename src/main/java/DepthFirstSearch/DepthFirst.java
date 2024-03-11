@@ -1,3 +1,5 @@
+package DepthFirstSearch;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -42,7 +44,7 @@ public class DepthFirst {
 
     /**
      * Esta función determina si el nodoBPP equivale al estado final
-     * @param nodoBPP NodoBPP a validar y contiene el estado a validar
+     * @param nodoBPP DepthFirstSearch.NodoBPP a validar y contiene el estado a validar
      * @param finalState Estado final
      * @return  Verdadero si el estado actual coincide con el final, si no falso
      */
@@ -51,7 +53,7 @@ public class DepthFirst {
     }
 
     /**
-     * Esta función de encarga de expandir
+     * Esta función se encarga de expandir los nodos sucesores
      * @param n
      * @return
      */

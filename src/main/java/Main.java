@@ -1,3 +1,6 @@
+import DepthFirstSearch.DepthFirst;
+import DepthFirstSearch.NodoBPP;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,6 +26,7 @@ public class Main {
         finalState.add(List.of("7", "6", "5"));
 
         DepthFirst bpp = new DepthFirst();
+
     }
 }
 
