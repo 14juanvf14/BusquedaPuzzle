@@ -27,10 +27,16 @@ public class DepthFirst {
 
                 List<NodoBPP> sucesores = expander(N);
 
-                for (NodoBPP sucesor:sucesores){
-                    if (sucesor != null && sucesor.nivel<P+1) {
+                for(int i = sucesores.size()-1; i >= 0;  i--){
+                    NodoBPP sucesor = sucesores.get(i);
+                    if (sucesor != null && sucesor.nivel < P + 1) {
                         numNodo += 1;
                         sucesor.numNodo = numNodo;
+                    }
+
+                }
+                for (NodoBPP sucesor:sucesores){
+                    if (sucesor != null && sucesor.nivel<P+1) {
                         ABIERTO.addFirst(sucesor); // Almacenar al inicio de la lista ABIERTO
                     }
                 }

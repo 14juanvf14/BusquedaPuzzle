@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NodoHC {
     public int numNodo; // Identificador del DepthFirstSearch.NodoBPP
-    public int nodoPadre; // DepthFirstSearch.NodoBPP del padre, si es el 0 es la raiz
+    public int nodoPadre; // Nodo del padre, si es el 0 es la raiz
     public float heuristica; // Profundidad del nodo, 0 si es el padre
     public String operacion; // NO para el nodo inicial, IZQUIERDA, ARRIBA, DERECHA, ABAJO para demas nodos
 
@@ -15,4 +15,20 @@ public class NodoHC {
     // (1,2,3)
     // (4,5,6)
     // (7,8,0)
+
+
+    public float getHeuristica() {
+        return heuristica;
+    }
+
+    @Override
+    public String toString() {
+        return "NodoHC{" +
+                "numNodo=" + numNodo +
+                ", nodoPadre=" + nodoPadre +
+                ", heuristica=" + heuristica +
+                ", operacion='" + operacion + '\'' +
+                ", cuerpoNodo=" + cuerpoNodo +
+                '}';
+    }
 }
