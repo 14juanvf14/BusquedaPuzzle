@@ -138,7 +138,8 @@ public class HillClimb {
                     int[] posicionObjetivo = encontrarPosicion(estadoObjetivo, valor);
 
                     if (posicionActual != null && posicionObjetivo != null) {
-                        distanciaTotal += Math.abs(posicionActual[0] - posicionObjetivo[0]) + Math.abs(posicionActual[1] - posicionObjetivo[1]);
+                        float distanciaParcial = Math.abs(posicionActual[0] - posicionObjetivo[0]) + Math.abs(posicionActual[1] - posicionObjetivo[1]);
+                        distanciaTotal += distanciaParcial;
                     } else {
                         // Manejo de error: alguna posición es null
                         System.out.println("Error: Posición nula encontrada.");
@@ -149,6 +150,7 @@ public class HillClimb {
 
         return distanciaTotal;
     }
+
 
     private int[] encontrarPosicion(List<List<String>> estado, String valor) {
         for (int i = 0; i < estado.size(); i++) {

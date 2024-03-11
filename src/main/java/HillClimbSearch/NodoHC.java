@@ -23,7 +23,7 @@ public class NodoHC {
 
     @Override
     public String toString() {
-        return "NodoHC{" +
+        return "HillClimb.NodoHC{" +
                 "numNodo=" + numNodo +
                 ", nodoPadre=" + nodoPadre +
                 ", heuristica=" + heuristica +
