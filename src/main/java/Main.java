@@ -4,13 +4,21 @@ import DepthFirstSearch.DepthFirst;
 import DepthFirstSearch.NodoBPP;
 import HillClimbSearch.HillClimb;
 import HillClimbSearch.NodoHC;
+import View.PrincipalLayout;
 
+import javax.swing.*;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new PrincipalLayout();
+            frame.setSize(400,400);
+            frame.setVisible(true);
+            frame.setLocationRelativeTo(null);
+        });
+        new PrincipalLayout();
 
         NodoHC nodoHC = new NodoHC();
         NodoBPP nodoBPP = new NodoBPP();

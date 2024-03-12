@@ -1,0 +1,11 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãÿ­Ğÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šà„
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°İ›ø
+l	java:S116"RRename this field "ABIERTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÑÓ§úÿÿÿÿ
+g	java:S116	"RRename this field "CERRADO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áóŠ˜
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ãÿ­Ğÿÿÿÿÿ
+E	java:S106/"+Replace this use of System.out by a logger.(ÌöÑûÿÿÿÿ
+F	java:S106œ"+Replace this use of System.out by a logger.(ºõ«úøÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(½Ó¦’

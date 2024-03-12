@@ -1,0 +1,16 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ì§Ãùÿÿÿÿ
+]
+java:S2184–"ACast one of the operands of this addition operation to a "float".(ÿ°ùÕÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ÌÑ
+l	java:S116
+"RRename this field "ABIERTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ë‡Æøÿÿÿÿ
+g	java:S116"RRename this field "CERRADO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÌŞ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(€ÆÄıÿÿÿÿ
+E	java:S1069"+Replace this use of System.out by a logger.(ÌöÑûÿÿÿÿ
+F	java:S106š"+Replace this use of System.out by a logger.(„ÇÍÙúÿÿÿÿ
+=
+java:S1168¬"&Return an empty array instead of null.(®òŠ©
+F	java:S106Ä"+Replace this use of System.out by a logger.(ºõ«úøÿÿÿÿ
+A	java:S106Æ"+Replace this use of System.out by a logger.(½Ó¦’

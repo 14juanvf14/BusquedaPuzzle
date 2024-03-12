@@ -1,0 +1,19 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«õßÍúÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õîºúÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü°ã„ûÿÿÿÿ
+]
+java:S2184"ACast one of the operands of this addition operation to a "float".(ÿ°ùÕÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¸¬—
+l	java:S116"RRename this field "ABIERTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«õßÍúÿÿÿÿ
+l	java:S116"RRename this field "CERRADO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õîºúÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‰İêıÿÿÿÿ
+E	java:S1062"+Replace this use of System.out by a logger.(ÌöÑûÿÿÿÿ
+F	java:S106‘"+Replace this use of System.out by a logger.(„ÇÍÙúÿÿÿÿ
+=
+java:S1168£"&Return an empty array instead of null.(®òŠ©
+F	java:S106»"+Replace this use of System.out by a logger.(ºõ«úøÿÿÿÿ
+A	java:S106½"+Replace this use of System.out by a logger.(½Ó¦’

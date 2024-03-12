@@ -1,0 +1,13 @@
+
+h
+java:S1104"SMake numNodo a static final constant or non-public and provide accessors if needed.(÷ŠàO
+j
+java:S1104"UMake nodoPadre a static final constant or non-public and provide accessors if needed.(¶á%
+l
+java:S1104	"QMake nivel a static final constant or non-public and provide accessors if needed.(¯ê°×üÿÿÿÿ
+k
+java:S1104
+"UMake operacion a static final constant or non-public and provide accessors if needed.(åÏµè
+l
+java:S1104"VMake cuerpoNodo a static final constant or non-public and provide accessors if needed.(Ö†–
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°İ›ø

@@ -1,0 +1,42 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8†‘šã1
+v	java:S116"URename this field "lbl_Tittle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûüïñûÿÿÿÿ8Š‘šã1
+P
+java:S1068".Remove this unused "lbl_Tittle" private field.(Ûüïñûÿÿÿÿ8¹šã1
+M
+java:S1068"+Remove this unused "panel00" private field.(Õ”Ã£ûÿÿÿÿ8¹šã1
+M
+java:S1068"+Remove this unused "panel10" private field.(Èëåÿøÿÿÿÿ8‘šã1
+H
+java:S1068	"+Remove this unused "panel20" private field.(Şœ•Ä8‘šã1
+M
+java:S1068
+"+Remove this unused "label00" private field.(Ú ’ùÿÿÿÿ8ùÃœšã1
+H
+java:S1068"+Remove this unused "label10" private field.( ¥ ç8óïœšã1
+H
+java:S1068"+Remove this unused "label20" private field.(Ø¼€ù8Ş šã1
+M
+java:S1068"+Remove this unused "panel01" private field.(ÔÒşñúÿÿÿÿ8²ÇŸšã1
+G
+java:S1068"+Remove this unused "panel02" private field.(›µÌ98İüŸšã1
+M
+java:S1068"+Remove this unused "panel11" private field.(˜»éÉúÿÿÿÿ8óô¬šã1
+M
+java:S1068"+Remove this unused "panel12" private field.(å­¸šúÿÿÿÿ8¸°­šã1
+M
+java:S1068"+Remove this unused "panel21" private field.(ˆÇ¡úúÿÿÿÿ8—ò­šã1
+H
+java:S1068"+Remove this unused "panel22" private field.(ÚŞíö8ğ»®šã1
+M
+java:S1068"+Remove this unused "label01" private field.(¡»Ãæıÿÿÿÿ8şÃšã1
+M
+java:S1068"+Remove this unused "label11" private field.(ìÈÜúÿÿÿÿ8°Äšã1
+H
+java:S1068"+Remove this unused "label21" private field.(®Ñô8¶×Äšã1
+M
+java:S1068"+Remove this unused "label02" private field.(ñì¼¥úÿÿÿÿ8ÃşÄšã1
+H
+java:S1068"+Remove this unused "label12" private field.(”Íı®8œ§Åšã1
+M
+java:S1068"+Remove this unused "label22" private field.(Ç–Ÿ–ÿÿÿÿÿ8€ĞÅšã1
